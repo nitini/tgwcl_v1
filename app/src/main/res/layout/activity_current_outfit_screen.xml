@@ -10,4 +10,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tgwcl.divnitini.girl_who_cried_look_v1.CurrentOutfitScreen">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="1.24.2017 //"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/ootd"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/outfit_6_small"
+        android:scaleType="fitCenter"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ootd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shirt:"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </RelativeLayout>
